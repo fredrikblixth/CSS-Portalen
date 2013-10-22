@@ -19,7 +19,7 @@ Sidan ska vara responsiv och fungera på nyare smartphones, läsplattor och dato
 
 ## Begränsningar
 Sidan kommer att kräva att man kör de nyaste versionerna av webbläsarna då funktionalitet kommer att användas som inte stöds i tidigare versioner.
-Med tanke på sidans målgrupp kommer det inte beskrivas i detalj i hur webbutveckling går till, endast kodexempel som användarna förhoppningsvis kan lära sig något av.
+Med tanke på målgruppen kommer det inte beskrivas i detalj i hur webbutveckling går till, endast kodexempel som användarna förhoppningsvis kan lära sig något av.
 
 ## Tidsplanering
 [Tidsplanering](http://fredrikblixth.github.io/CSS-Portalen/doc/Tidsplanering.pdf)
