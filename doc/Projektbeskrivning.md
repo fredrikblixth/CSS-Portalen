@@ -1,29 +1,26 @@
-
-# Projektnamn här
+# CSS-Portalen
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[Fredrik Blixth](https://github.com/fredrikblixth)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Körbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+[CSS-Portalen](http://fredrikblixth.github.io/CSS-Portalen)
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Projektet ska utveckla **CSS-Portalen**. Det är en webbsida som ska informera och demonstrera de senaste funktionerna inom CSS. Användaren kommer att få ett grafiskt exempel med tillhörande bakomliggande kod för varje ämne som sidan berör.
+Sidan ska vara responsiv och fungera på nyare smartphones, läsplattor och datorer.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+
+* HTML5
+* CSS 3
+* Ramverket [Foundation 4.0](http://foundation.zurb.com/)
+
+## Målgrupp
+**CSS-Portalen** riktar sig till personer som är intresserade av webbutveckling och CSS.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
-
-## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+Sidan kommer att kräva att man kör de nyaste versionerna av webbläsarna då funktionalitet kommer att användas som inte stöds i tidigare versioner.
+Med tanke på sidans målgrupp kommer det inte beskrivas i detalj i hur webbutveckling går till, endast kodexempel som användarna förhoppningsvis kan lära sig något av.
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+[Tidsplanering](http://fredrikblixth.github.io/CSS-Portalen/doc/Tidsplanering.pdf)
 
