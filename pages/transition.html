@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <title>CSS-Portalen</title>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/foundation.css">
+        <link rel="stylesheet" href="../css/examples.css">
+        <script src="../js/vendor/custom.modernizr.js"></script>
+    </head>
+    <body>
+        <nav class="top-bar">
+            <ul class="title-area">
+                <!-- Title Area -->
+                <li class="name">
+                <h1><a href="#">CSS-Portalen</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+            </ul>
+    
+            <section class="top-bar-section">
+            <!-- Left Nav Section -->
+                <ul class="left">
+                    <li class="divider"></li>
+                    <li><a href="../index.html">Start</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Transform</a></li>
+                    <li class="divider"></li>
+                    <li class="active"><a href="#">Transition</a>
+                    <li class="divider"></li>
+                    <li><a href="#">Transition</a>
+                    <li class="divider"></li>
+                    <li><a href="contact.html">Kontakt</a>
+                    <li class="divider"></li>
+                </ul>
+            </section>
+        </nav>
+        
+        <div class="row">
+            <div class="large-12 columns">
+                <h1>Transform</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="panel callout">
+                    <p>Kombinerar man transform och transition så kan man göra animationer. I följande exempel kombinerar jag transform och transition.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="large-6 columns">
+                    <div class="panel">
+                        <h3>Kod:</h3>
+                        <p><code> #rotate:active, #rotate:hover { transition:all 2s; transform:rotate(5deg); }</code></p>
+                    </div>
+                </div>
+                <div class="large-6 columns">
+                    <a  id="rotateTransitionDemo">
+                        <div class="panel">
+                                <p><em>Klicka på mig!</em> Jag roterar!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="large-6 columns">
+                    <div class="panel">
+                        <h3>Kod:</h3>
+                        <p><code>#scale:active, #scale:hover { transition:all 2s; tranform:scale(0.5); }</code></p>
+                    </div>
+                </div>
+                <div class="large-6 columns">
+                    <a id="scaleTransitionDemo">
+                        <div  class="panel">
+                            <p><em>Klicka på mig!</em> Jag blir mindre!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="large-6 columns">
+                    <div class="panel">
+                        <h3>Kod:</h3>
+                        <p><code>#skew:active, #skew:hover { transition:all 2s; transform:skew(10deg); }</code></p>
+                    </div>
+                </div>
+                <div class="large-6 columns">
+                    <a id="skewTransitionDemo">
+                        <div class="panel">
+                            <p><em>Klicka på mig!</em> Jag vrids!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            document.write('<script src=' +
+            ('__proto__' in {} ? '../js/vendor/zepto' : '../js/vendor/jquery') +
+            '.js><\/script>');
+        </script>
+        <script src="../js/foundation/foundation.js"></script>
+        <script src="../js/foundation/foundation.alerts.js"></script>
+        <script src="../js/foundation/foundation.clearing.js"></script>
+        <script src="../js/foundation/foundation.cookie.js"></script>
+        <script src="../js/foundation/foundation.dropdown.js"></script>
+        <script src="../js/foundation/foundation.forms.js"></script>
+        <script src="../js/foundation/foundation.joyride.js"></script>
+        <script src="../js/foundation/foundation.magellan.js"></script>
+        <script src="../js/foundation/foundation.orbit.js"></script>
+        <script src="../js/foundation/foundation.placeholder.js"></script>
+        <script src="../js/foundation/foundation.reveal.js"></script>
+        <script src="../js/foundation/foundation.section.js"></script>
+        <script src="../js/foundation/foundation.tooltips.js"></script>
+        <script src="../js/foundation/foundation.topbar.js"></script>
+        <script src="../js/foundation/foundation.interchange.js"></script>
+        <script>
+        $(document).foundation();
+        </script>
+    </body>
+</html>

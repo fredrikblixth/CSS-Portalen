@@ -1,0 +1,48 @@
+#rotateDemo {
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+    height:100%;
+}
+
+#scaleDemo {
+    -moz-transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    transform:scale(0.8);
+}
+
+#skewDemo {
+    -moz-transform:skew(10deg);
+    -webkit-transform:skew(10deg);
+    -ms-transform:skew(10deg);
+    transform:skew(10deg);
+}
+
+#rotateTransitionDemo div:hover, #rotateTransitionDemo div:active {
+    transition:all 2s;
+    -o-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+#scaleTransitionDemo div:hover, #scaleTransitionDemo div:active {
+    transition:all 2s;
+    -o-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    transform:scale(0.8);
+}
+
+#skewTransitionDemo div:hover, #skewTransitionDemo div:active {
+    transition:all 2s;
+    -o-transform:skew(10deg);
+    -moz-transform:skew(10deg);
+    -webkit-transform:skew(10deg);
+    -ms-transform:skew(10deg);
+    transform:skew(10deg);
+}
