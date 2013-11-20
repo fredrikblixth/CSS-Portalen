@@ -6,6 +6,8 @@
     	<meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/examples.css">
+        <link href='http://fonts.googleapis.com/css?family=Euphoria+Script&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <script src="js/vendor/custom.modernizr.js"></script>
     </head>
     <body>
@@ -13,7 +15,7 @@
             <ul class="title-area">
                 <!-- Title Area -->
                 <li class="name">
-                <h1><a href="#">CSS-Portalen</a></h1>
+                <h1 id="logo"><a href="index.html">CSS-Portalen</a></h1>
                 </li>
                 <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
             </ul>
@@ -22,13 +24,11 @@
             <!-- Left Nav Section -->
                 <ul class="left">
                     <li class="divider"></li>
-                    <li class="active"><a href="#">Start</a></li>
-                    <li class="divider"></li>
                     <li><a href="pages/transform.html">Transform</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Transition</a>
+                    <li><a href="pages/transition.html">Transition</a>
                     <li class="divider"></li>
-                    <li><a href="#">Knappar</a>
+                    <li><a href="pages/buttons.html">Knappar</a>
                     <li class="divider"></li>
                     <li><a href="pages/contact.html">Kontakt</a>
                     <li class="divider"></li>
@@ -36,23 +36,31 @@
             </section>
         </nav>
         <div class="row">
-            <div class="large-4 columns">
-                <h1>CSS 3.0</h1>
-                <p>Denna sida presenterar de senaste funktionerna inom CSS.</p>
-            </div>
-            <div class="large-8 columns">
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porttitor consectetur neque sed vestibulum. Vestibulum vehicula purus a dui laoreet mattis. Ut ultrices, mauris vel aliquet sagittis, elit enim adipiscing tellus, nec varius nulla mauris sit amet massa. Nam condimentum justo eget tincidunt pretium. Quisque sed risus enim. Nam porta felis a lectus aliquet, eget euismod tellus imperdiet. Nam auctor lacus quis urna facilisis, sit amet viverra enim egestas.</p>
+            <div class="large-12 columns">
+                <h1 id="logo">CSS-Portalen</h1>
             </div>
         </div>
         <div class="row">
-            <div class="large-12 columns">
-                <ul class="vcard">
-                    <li class="fn">Fredrik Blixth</li>
-                    <li class="locality">Växjö</li>
-                    <li class="locality">Sweden</li>
-                    <li class="email">fredrik.blixth@gmail.com</li>
+            <div class="large-8 columns">
+                <h3>Välkommen!</h3>
+                <p>Denna sidan är helt vigd till CSS. Här hittar du några exempel på vad man kan göra för att få sin hemsida att se lite snyggare ut! Alla exempel på denna sidan kommer att kräva en nyare version av webbläsaren.</p>
+                <p>Ni kommer inte bara att få se CSS-koden i klartext utan även in action så att säga. Exempelkoden innehåller inte webbläsarspecifika attribut</p>
+                
+                <h5>Dessa exempel innefattar bland annat:</h5>
+                <ul class="square">
+                    <li>Transition</li>
+                    <li>Transform</li>
+                    <li>Rundade hörn</li>
+                    <li>Gradienter</li>
+                    <li>Hover-funktioner</li>
                 </ul>
+                <p>Vad väntar du på? Kika runt på sidan!</p>
+            </div>
+                <div class="large-4 columns">
+                    <div class="panel callout">
+                    <h3>Vad är CSS?</h3>
+                    <p>Css som står för Cascading Style Sheet är ett såkallat stilmallspråk och är till för att beskriva utseendet på dokument skrivna i märkspråk. Som till exempel HTML och XHTML, det går även att använda till XML. CSS styr helt enkelt utseendet på Elementen i HTML dokumentet som till exempel: färger, typsnitt, bakgrundsbilder, layout. Vad som helst i stort sett. Vilket innerbär att samma HTML dokument kan se olika ut med olika CSS mallar.</p>
+                </div>
             </div>
         </div>
     

@@ -26,9 +26,9 @@
                     <li class="divider"></li>
                     <li><a href="transform.html">Transform</a></li>
                     <li class="divider"></li>
-                    <li class="active"><a href="transition.html">Transition</a>
+                    <li><a href="transition.html">Transition</a>
                     <li class="divider"></li>
-                    <li><a href="buttons.html">Knappar</a>
+                    <li class="active"><a href="buttons.html">Knappar</a>
                     <li class="divider"></li>
                     <li><a href="contact.html">Kontakt</a>
                     <li class="divider"></li>
@@ -43,59 +43,71 @@
         </div>
         <div class="row">
             <div class="large-12 columns">
-                <div class="panel callout">
-                    <p>Kombinerar man transform och transition så kan man göra animationer. I följande exempel kombinerar jag transform och transition.</p>
+                <div class="large-8 columns">
+                    <div class="panel">
+                        <h3>Kod:</h3>
+                        <p><code> #button3 {
+                                    box-shadow:inset 0 1px 0 0 #f9eca0;
+                                    background-color:#f0c911;
+                                    border-top-left-radius:37px;
+                                    border-bottom-right-radius:37px;
+                                    text-indent:0;
+                                    border:1px solid #e65f44;
+                                    text-shadow:1px 1px 0 #ded17c;
+                            }
+                        </code></p>
+                    </div>
+                </div>
+                <div class="large-4 columns">
+                    <div class="panel">
+                        <h3>Knapp 1</h3>
+                        <a id="button3"><div>Ok</div></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="large-12 columns">
-                <div class="large-6 columns">
+                <div class="large-8 columns">
                     <div class="panel">
                         <h3>Kod:</h3>
-                        <p><code> #rotate:active, #rotate:hover { transition:all 2s; transform:rotate(5deg); }</code></p>
+                        <p><code>#button2 {
+                                    box-shadow:inset 0 1px 0 0 #fce2c1;
+                                    background-color:#ffc477;
+                                    border-top-left-radius:20px;
+                                    border-top-right-radius:20px;
+                                    border-bottom-right-radius:20px;
+                                    border-bottom-left-radius:20px;
+                                    text-shadow:1px 1px 0px #cc9f52;
+                            }
+                        </code></p>
                     </div>
                 </div>
-                <div class="large-6 columns">
-                    <a  id="rotateTransitionDemo">
-                        <div class="panel">
-                                <p><em>Klicka på mig!</em> Jag roterar!</p>
-                        </div>
-                    </a>
+                <div class="large-4 columns">
+                    <div class="panel">
+                        <h3>Knapp 2</h3>
+                        <a id=button2><div>Ok</div></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="large-12 columns">
-                <div class="large-6 columns">
+                <div class="large-8 columns">
                     <div class="panel">
                         <h3>Kod:</h3>
-                        <p><code>#scale:active, #scale:hover { transition:all 2s; tranform:scale(0.5); }</code></p>
+                        <p><code> #button1 {
+                                    box-shadow:inset 0 1px 0 0 #fed897;
+                                    background-color:#f6b33d;
+                                    border:1px solid #eda933;
+                                    text-shadow:1px 1px 0px #cd8a15; }</code></p>
                     </div>
                 </div>
-                <div class="large-6 columns">
-                    <a id="scaleTransitionDemo">
-                        <div  class="panel">
-                            <p><em>Klicka på mig!</em> Jag blir mindre!</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="large-6 columns">
+                <div class="large-4 columns">
                     <div class="panel">
-                        <h3>Kod:</h3>
-                        <p><code>#skew:active, #skew:hover { transition:all 2s; transform:skew(10deg); }</code></p>
+                        <h3>Knapp 3</h3>
+                        <a id="button1"><div>Ok</div></a>
                     </div>
-                </div>
-                <div class="large-6 columns">
-                    <a id="skewTransitionDemo">
-                        <div class="panel">
-                            <p><em>Klicka på mig!</em> Jag vrids!</p>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
